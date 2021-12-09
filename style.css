@@ -1,0 +1,38 @@
+body {
+    background: #e2dfdf;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 500ms;
+ }
+  
+.card:hover {
+    transform: scale(1.1);
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+     justify-content: center;
+ }
+
+ .navList {
+     list-style: none;
+ }
+
+ .logo {
+    margin-left: 4%;
+ }
+
+ .showcase {
+     margin-top: 5rem;
+ }
+
+ .listitem:hover {
+    color: cyan;
+ }
