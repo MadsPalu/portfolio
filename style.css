@@ -2,27 +2,27 @@ body {
     background: #e2dfdf;
 }
 
-.card {
+.griditem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
     transition: all 500ms;
- }
-  
-.card:hover {
-    transform: scale(1.1);
+    max-width: 80%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
  }
 
- .grid {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-     justify-content: center;
+ header{
+     display: flex;
  }
 
  .navList {
      list-style: none;
+     margin-left: auto;
+     margin-right: auto;
  }
 
  .logo {
@@ -31,8 +31,54 @@ body {
 
  .showcase {
      margin-top: 5rem;
+     margin-left: auto;
+     margin-right: auto;
  }
 
  .listitem:hover {
     color: cyan;
+ }
+
+ .cvContent {
+     text-align: center;
+     margin-top: 5rem;
+ }
+
+ .pp {
+     width: 10%;
+     border-radius: 25px;
+ }
+
+ .cvText {
+    margin-top: 5rem;
+    border: 2px solid black;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .showcaseText {
+     margin-bottom: 5rem;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ @media only screen and (min-width: 850px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        justify-content: center;
+    }
+ }
+
+ header{
+    position: sticky;
+    top: 0;
+    background-color: #e2dfdf;
+ }
+
+ .griditem:hover {
+    transform: scale(1.3);
  }
