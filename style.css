@@ -1,3 +1,7 @@
+*{
+    font-family: Hack, monospace, 'Times New Roman';
+}
+
 body {
     background: #e2dfdf;
 }
@@ -17,6 +21,9 @@ body {
 
  header{
      display: flex;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
  }
 
  .navList {
@@ -25,18 +32,27 @@ body {
      margin-right: auto;
  }
 
- .logo {
-    margin-left: 4%;
- }
-
  .showcase {
      margin-top: 5rem;
      margin-left: auto;
      margin-right: auto;
  }
 
+ .listitem {
+    text-decoration: none;
+    color: black;
+    }
+
  .listitem:hover {
-    color: cyan;
+    color: blue;
+ }
+
+ .listitemActiveSite{
+    color: black;
+ }
+
+ .listitemActiveSite:hover{
+     color: blue;
  }
 
  .cvContent {
@@ -81,4 +97,8 @@ body {
 
  .griditem:hover {
     transform: scale(1.3);
+ }
+
+ .mhanimation {
+     margin-top: -13%;
  }

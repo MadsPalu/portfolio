@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="hack.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,16 +17,24 @@
         <header>
             <img src="logo.png" alt="logo" class="logo">
             <li class="navList">
-                <ul class="listitem">CV</ul>
-                <ul class="listitem">Om Mig</ul>
+                <ul><a href="index.html" class="listitemActiveSite">Forside</a></ul>
+                <ul><a href="cv.html" class="listitem">CV</a></ul>
             </li>
         </header>
 
-        <section class="grid showcase">
-                <img src="moonshine.png" alt="" class="griditem">
-                <img src="linedance.png" alt="" class="griditem">
-                <img src="folkehop.png" alt="" class="griditem">
-                <img src="moohvie.png" alt="" class="griditem">
+        <section class="showcase showcaseText">
+            <h2>Velkommen til mit portfolio</h2>
+            <p>Jeg er multimediestudierne på Zealand i Køge. Jeg har er interesse og erfaring i kodning og websites,
+                hvilket du kan se nemmere om i mine projekt forløb på siden. Som sagt, har jeg også tideligerer erfaringer gennem
+                tidligere uddannelser og arbejde som kan ses nærmere under mit CV.
+            </p> 
+            <i>- Mads Paludan</i>
+            <div class="showcase grid">
+                <a href="moonshine.html"><img src="moonshine.png" alt="" class="griditem"></a>
+                <a href="lindedance.html"><img src="linedance.png" alt="" class="griditem"></a>
+                <a href="folkehop.html"><img src="folkehop.png" alt="" class="griditem"></a>
+                <a href="moohvie.html"><img src="moohvie.png" alt="" class="griditem"></a>
+            </div>
         </section>
 
     </body>
