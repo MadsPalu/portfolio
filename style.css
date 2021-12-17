@@ -32,6 +32,10 @@ body {
      margin-right: auto;
  }
 
+ li {
+     padding: 2%;
+ }
+
  .showcase {
      margin-top: 5rem;
      margin-left: auto;
