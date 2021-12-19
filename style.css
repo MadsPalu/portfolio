@@ -6,6 +6,7 @@ body {
     background: #e2dfdf;
 }
 
+/*bruges til elementerne i grid opføre sig som de skal, samt de for transition to på deres transform:hover senere i mediaquaryet*/
 .griditem {
     display: flex;
     flex-direction: column;
@@ -47,6 +48,7 @@ body {
     color: black;
     }
 
+/*Bruges til at gøre navbaren responsiv samt underline når du er på henholdsvist forside eller cv*/
  .listitem:hover {
     color: blue;
  }
@@ -86,6 +88,7 @@ body {
  }
 
  @media only screen and (min-width: 850px) {
+     /*bruges til at lægge elementer i et responsivt grid*/
     .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -94,11 +97,13 @@ body {
  }
 
  header{
+    /*header der sticker til toppen af siden når der scrolles*/
     position: sticky;
     top: 0;
     background-color: #e2dfdf;
  }
 
+ /*upscaler elementer i gridet når de holdes over*/
  .griditem:hover {
     transform: scale(1.3);
  }
